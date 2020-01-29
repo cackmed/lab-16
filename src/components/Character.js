@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import styles from '/Character.css';
+// import styles from '/Character.css';
 
 
 export default class Character extends Component {

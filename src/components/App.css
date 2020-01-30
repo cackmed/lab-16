@@ -83,4 +83,12 @@
       }
     }
   }
+  .Grid {
+    display: grid;
+    grid-template-columns: repeat( 4, minmax(1px, 1fr) );
+    gap: 20px;
+    background-color: rgb(32, 34, 41);
+    transform-style: preserve-3d;
+    
+  }
   

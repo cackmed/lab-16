@@ -1,0 +1,22 @@
+.Character {
+    dt {
+    background: rgb(50, 50, 50);
+    width: 300px;
+    border-bottom: ridge;
+    border-width: 1px;
+    border-color: gray;
+    color: rgb(158, 158, 134);
+   } 
+   dd {
+       text-align: right;
+       color: orange;
+   }
+   h2 {
+    background: rgb(50, 50, 50);
+    color: white;
+    width: 300px;
+    opacity: 0.7;
+    position: relative;
+    top: 320px;
+   }
+}

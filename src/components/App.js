@@ -52,21 +52,16 @@ class App extends Component {
     return (
       <React.Fragment>
         <Header />
-        <Character img={jerry} name="Jerry Smith" status="Alive" species="Human" gender="Male" origin="Earth (Replacement Dimension)" lastLocation="Earth (Replacement Dimension)"/>
-
-        <Character img={cyborg} name="Amish Cyborg" status="Dead" species="Alien, Parasite, Cyborg" gender="Male" origin="unknown" lastLocation="Earth (Replacement Dimension)"/>
-
-        <Character img={flap} name="Courier Flap" status="Alive" species="Alien" gender="unknown" origin="unknown" lastLocation="Planet Squanch"/>
-
-        <Character img={jaguar} name="Jaguar" status="Alive" species="Human" gender="Male" origin="Earth (Replacement Dimension)" lastLocation="Earth (Replacement Dimension)"/>
-
-        <Character img={mytholog} name="Jerry's Mytholog" status="Dead" species="Mytholog" gender="Male" origin="Nuptia 4" lastLocation="Nuptia 4"/>
-
-        <Character img={presidentress} name="Presidentress of The Mega Gargantuans" status="Alive" species="Humanoid, Mega Gargantuan" gender="Female" origin="Mega Gargantuan Kingdom" lastLocation="Mega Gargantuan Kingdom"/>
-
-        <Character img={arbolian} name="Arbolian Mentirososian" status="Alive" species="Alien" gender="unknown" origin="Árboles Mentirosos" lastLocation="St. Gloopy Noops Hospital"/>
-
-        <Character img={rick} name="Journalist Rick" status="Alive" species="Human" gender="Male" origin="unknown" lastLocation="Citadel of Ricks"/>
+        <div className={styles.Grid}>
+          <Character img={jerry} name="Jerry Smith" status="Alive" species="Human" gender="Male" origin="Earth (Replacement Dimension)" lastLocation="Earth (Replacement Dimension)"/>
+          <Character img={cyborg} name="Amish Cyborg" status="Dead" species="Alien, Parasite, Cyborg" gender="Male" origin="unknown" lastLocation="Earth (Replacement Dimension)"/>
+          <Character img={flap} name="Courier Flap" status="Alive" species="Alien" gender="unknown" origin="unknown" lastLocation="Planet Squanch"/>
+          <Character img={jaguar} name="Jaguar" status="Alive" species="Human" gender="Male" origin="Earth (Replacement Dimension)" lastLocation="Earth (Replacement Dimension)"/>
+          <Character img={mytholog} name="Jerry's Mytholog" status="Dead" species="Mytholog" gender="Male" origin="Nuptia 4" lastLocation="Nuptia 4"/>
+          <Character img={presidentress} name="Presidentress of The Mega Gargantuans" status="Alive" species="Humanoid, Mega Gargantuan" gender="Female" origin="Mega Gargantuan Kingdom" lastLocation="Mega Gargantuan Kingdom"/>
+          <Character img={arbolian} name="Arbolian Mentirososian" status="Alive" species="Alien" gender="unknown" origin="Árboles Mentirosos" lastLocation="St. Gloopy Noops Hospital"/>
+          <Character img={rick} name="Journalist Rick" status="Alive" species="Human" gender="Male" origin="unknown" lastLocation="Citadel of Ricks"/>
+        </div>
         <Footer />
       </React.Fragment>
     );

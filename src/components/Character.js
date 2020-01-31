@@ -1,17 +1,17 @@
 import React, { Component } from 'react';
-import PropTypes from 'prop-types';
+import propTypes from 'prop-types';
 import styles from './Character.css';
 
 
 export default class Character extends Component {
-    static PropTypes = {
-      img: PropTypes.string.isRequired,
-      name: PropTypes.string.isRequired,
-      status: PropTypes.string.isRequired,
-      species: PropTypes.string.isRequired,
-      gender: PropTypes.string.isRequired,
-      origin: PropTypes.string.isRequired,
-      lastLocation: PropTypes.string.isRequired
+    static propTypes = {
+      img: propTypes.string.isRequired,
+      name: propTypes.string.isRequired,
+      status: propTypes.string.isRequired,
+      species: propTypes.string.isRequired,
+      gender: propTypes.string.isRequired,
+      origin: propTypes.string.isRequired,
+      lastLocation: propTypes.string.isRequired
     }
 
     render() {

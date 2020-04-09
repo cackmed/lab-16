@@ -1,0 +1,84 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App component renders App 1`] = `
+<Fragment>
+  <Header />
+  <div
+    className="Grid"
+  >
+    <Character
+      gender="Male"
+      img="/path/image"
+      lastLocation="Earth (Replacement Dimension)"
+      name="Jerry Smith"
+      origin="Earth (Replacement Dimension)"
+      species="Human"
+      status="Alive"
+    />
+    <Character
+      gender="Male"
+      img="/path/image"
+      lastLocation="Earth (Replacement Dimension)"
+      name="Amish Cyborg"
+      origin="unknown"
+      species="Alien, Parasite, Cyborg"
+      status="Dead"
+    />
+    <Character
+      gender="unknown"
+      img="/path/image"
+      lastLocation="Planet Squanch"
+      name="Courier Flap"
+      origin="unknown"
+      species="Alien"
+      status="Alive"
+    />
+    <Character
+      gender="Male"
+      img="/path/image"
+      lastLocation="Earth (Replacement Dimension)"
+      name="Jaguar"
+      origin="Earth (Replacement Dimension)"
+      species="Human"
+      status="Alive"
+    />
+    <Character
+      gender="Male"
+      img="/path/image"
+      lastLocation="Nuptia 4"
+      name="Jerry's Mytholog"
+      origin="Nuptia 4"
+      species="Mytholog"
+      status="Dead"
+    />
+    <Character
+      gender="Female"
+      img="/path/image"
+      lastLocation="Mega Gargantuan Kingdom"
+      name="Presidentress of The Mega Gargantuans"
+      origin="Mega Gargantuan Kingdom"
+      species="Humanoid, Mega Gargantuan"
+      status="Alive"
+    />
+    <Character
+      gender="unknown"
+      img="/path/image"
+      lastLocation="St. Gloopy Noops Hospital"
+      name="Arbolian Mentirososian"
+      origin="Árboles Mentirosos"
+      species="Alien"
+      status="Alive"
+    />
+    <Character
+      gender="Male"
+      img="/path/image"
+      lastLocation="Citadel of Ricks"
+      name="Journalist Rick"
+      origin="unknown"
+      species="Human"
+      status="Alive"
+    />
+  </div>
+  <Footer />
+</Fragment>
+`;
